@@ -91,25 +91,19 @@ footer p {
   color: gray;
 }
 
-.pagetop {
-  color: #fff;
-  background-color: rgba(0,0,0,0.3);
-  text-decoration: none;
-  display: none;
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  font-size: 1.5rem;
-  width: 3.3rem;
-  height: 3.3rem;
-  line-height: 3.3rem;
-  border-radius: 3.3rem;
-  text-align: center;
-  cursor: pointer;
+#page_top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
 }
-
-.pagetop:hover {
-	color: #fff !important;
-	background-color: #ed702b;
-	text-decoration: none;
+#page_top a {
+    background-color: #999;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+#page_top a:hover {
+    background-color: #666;
+    text-decoration: none;
 }
