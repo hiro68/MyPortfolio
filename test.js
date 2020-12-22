@@ -1,8 +1,7 @@
 $(function(){
-  var pagetop = $('page_top a');
+  var pagetop = $('#page_top');
   // ボタン非表示
   pagetop.hide();
-
   // 100px スクロールしたらボタン表示
   $(window).scroll(function () {
      if ($(this).scrollTop() > 100) {
