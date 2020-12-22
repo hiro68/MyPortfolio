@@ -91,19 +91,19 @@ footer p {
   color: gray;
 }
 
-#page_top {
+.page_top {
     position: fixed;
     bottom: 30px;
     right: 20px;
 }
-#page_top a {
+.page_top a {
     background-color: #999;
     color: #fff;
     text-align: center;
     text-decoration: none;
     padding: 20px 20px;
 }
-#page_top a:hover {
+.page_top a:hover {
     background-color: #666;
     text-decoration: none;
 }
