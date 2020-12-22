@@ -91,7 +91,7 @@ footer p {
   color: gray;
 }
 
-#pagetop a{
+ pagetop a{
   position: relative;
   display: block;
   width: 50px;
@@ -99,7 +99,7 @@ footer p {
   text-decoration: none;
   text-align: center;
 }
-#pagetop a::before{
+ pagetop a::before{
   font-family: "Font Awesome 5 Free";
   content: '\f106';
   font-weight: 900;
