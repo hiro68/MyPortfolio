@@ -1,5 +1,5 @@
 $(function(){
-  var pagetop = $('#page_top a');
+  var pagetop = $('page_top a');
   // ボタン非表示
   pagetop.hide();
 
